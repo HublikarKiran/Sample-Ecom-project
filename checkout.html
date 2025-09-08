@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSmart - Checkout</title>
+    <link rel="icon" href="./duck-baby.png">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">ShopSmart</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icons">
+            <input type="text" placeholder="Search products..." class="search-bar" />
+            <a href="login.html" class="btn">Login</a>
+            <a href="cart.html" class="cart-icon">🛒</a>
+        </div>
+    </header>
+
+    <section class="featured">
+        <h2>Checkout</h2>
+        <form style="max-width:600px;margin:0 auto;text-align:left;">
+            <h3>Shipping Details</h3>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" style="width:100%;padding:10px;margin-bottom:10px;"><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" style="width:100%;padding:10px;margin-bottom:10px;"></textarea><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" style="width:100%;padding:10px;margin-bottom:20px;"><br>
+
+            <h3>Payment</h3>
+            <label><input type="radio" name="payment" checked> Credit/Debit Card</label><br>
+            <label><input type="radio" name="payment"> UPI</label><br>
+            <label><input type="radio" name="payment"> Cash on Delivery</label><br><br>
+
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 ShopSmart. All rights reserved.</p>
+            <div class="socials">
+                <a href="#">🌐</a>
+                <a href="#">🐦</a>
+                <a href="#">📘</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
